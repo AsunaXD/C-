@@ -224,5 +224,143 @@ int main()
     // It is divisible by 4, and
     // If it is divisible by 100, it must also be divisible by 400.
     // Outputs "Leap year" or "Not a leap year".
+
+    // int n;
+
+    // cout << "enter the year: " << endl;
+    // cin >> n;
+    // if ((n % 4 == 0 && n % 100 != 0) || (n % 400 == 0))
+    // {
+    //     cout << "the year is the leap year" << endl;
+    // }
+    // else
+    // {
+    //     cout << "The year is not leap year" << endl;
+    // }
+
+    //      5. Largest of Three Numbers:
+    // Write a C++ program that:
+    // Takes three integers as input.
+    // Determines and prints the largest of the three numbers using if-else statements.
+
+    // int a, b, c;
+    // cout << "enter all the number: " << endl;
+    // cin >> a >> b >> c;
+    // if (a > b && a > c)
+    // {
+    //     cout << "The greatest number is: " << a << endl;
+    // }
+    // else if (b > a && b > c)
+    // {
+    //     cout << "the greatest number is: " << b << endl;
+    // }
+    // else
+    // {
+    //     cout << "the greatest number is: " << c << endl;
+    // }
+
+    // 6. Check Divisibility by 3 and 5 : Write a C++ program that :
+    //     Takes an integer as input.Checks whether the number is divisible by both 3 and
+    //     5. Outputs "Divisible by 3 and 5" if it is divisible by both,
+    //     otherwise prints "Not divisible by both".
+
+    // int n;
+    // cout << "enter the number: " << endl;
+    // cin >> n;
+    // if (n % 3 == 0 && n % 5 == 0)
+    // {
+    //     cout << "The number is divisible by 3 and 5" << endl;
+    // }
+    // else
+    // {
+    //     cout << "The number is not divisible by 3 and 5" << endl;
+    // }
+
+    // 7. Age Eligibility for Voting:
+    // Write a C++ program that:
+    // Takes an age as input.
+    // Checks if the person is eligible to vote.
+    // The voting age is 18 or above.
+    // Outputs "Eligible to vote" if the age is 18 or older, otherwise outputs "Not eligible to vote".
+
+    // int n = 18;
+    // int a;
+    // cout << "Enter your age: " << endl;
+    // cin >> a;
+    // if (a >= n)
+    // {
+    //     cout << "you are allow to vote: " << endl;
+    // }
+    // else
+    // {
+    //     cout << "you are no allow to vote: " << endl;
+    // }
+
+    // 8. Check Alphabet Character:
+    // Write a C++ program that:
+    // Takes a character as input from the user.
+    // Checks whether the character is a vowel (a, e, i, o, u) or a consonant.
+    // Outputs "Vowel" if the character is a vowel, otherwise outputs "Consonant".
+
+    // char n;
+    // cout << "Enter the character:" << endl;
+    // cin >> n;
+    // if (n == 'a' || n == 'e' || n == 'i' || n == 'o' || n == 'u' || n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U')
+
+    // {
+    //     cout << "the character is VOWEL: " << endl;
+    // }
+    // else
+    // {
+    //     cout << "The character is constent " << endl;
+    // }
+    //     9. Check If Number is Divisible by 7:
+    // Write a C++ program that:
+    // Takes a number as input.
+    // Checks whether the number is divisible by 7.
+    // Outputs "Divisible by 7" if true, otherwise outputs "Not divisible by 7".
+
+    // int n;
+    // cout << "enter the number " << endl;
+    // cin >> n;
+    // if (n % 7 == 0)
+    // {
+    //     cout << "the is divisible by 7 " << endl;
+    // }
+
+    // else
+    // {
+    //     cout << "the number is not divisible by 7 " << endl;
+    // }
+
+    // 10. Temperature Classification:
+    // Write a C++ program that:
+    // Takes a temperature in Celsius as input.
+    // Classifies the temperature:
+    // Below 0°C: "Freezing"
+    // 0°C to 20°C: "Cold"
+    // 21°C to 30°C: "Warm"
+    // Above 30°C: "Hot"
+
+    // int n;
+    // cout << "enter the temperature: " << endl;
+    // cin >> n;
+    // if (n >= 30)
+    // {
+    //     cout << "Hot" << endl;
+    // }
+    // else if (n >= 21 && n < 30)
+    // {
+    //     cout << "warm" << endl;
+    // }
+    // else if (n >= 0 && n < 21)
+    // {
+    //     cout << "cold" << endl;
+    // }
+    // else
+    // {
+    //     cout << "freezing" << endl;
+    // }
+
     return 0;
 }
