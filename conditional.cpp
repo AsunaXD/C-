@@ -361,6 +361,34 @@ int main()
     // {
     //     cout << "freezing" << endl;
     // }
+     
+     int n;
+     cout<<"ennter thr number: ";
+     cin>>n;
+   bool isPrime=true;
+     for (int i = 2; i <=n-1; i++)
+     {
+        if (n%i==0)
+        {
+            isPrime=false;
+            break;
+        }
+       
+     }
 
+     if (isPrime==true)
+     {
+        cout<<"the number is prime";
+     }
+     else
+     {
+        cout<<"the number is false";
+     }
+     
+     
+    
+     
+     
+     
     return 0;
 }
