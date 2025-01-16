@@ -466,5 +466,134 @@ int main()
 
     // cout << count << endl;
 
+    // int n;
+
+    // // Ask the user for the number of terms
+    // cout << "Enter the number of terms in the Fibonacci series: ";
+    // cin >> n;
+
+    // // Handle special cases
+    // if (n <= 0)
+    // {
+    //     cout << "Please enter a positive integer." << endl;
+    // }
+    // else if (n == 1)
+    // {
+    //     cout << "Fibonacci series: 0" << endl;
+    // }
+    // else
+    // {
+    //     // Initialize the first two terms
+    //     int a = 0, b = 1;
+
+    //     cout << "Fibonacci series: " << a << " " << b;
+
+    //     // Loop to generate the series
+    //     for (int i = 3; i <= n; i++)
+    //     {
+    //         int next = a + b;
+    //         cout << " " << next;
+    //         a = b;    // Update a to the previous b
+    //         b = next; // Update b to the current term
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // fibonaaci series
+    // int n;
+    // cout << "enter the umber for the fibonicc series: " << endl;
+    // cin >> n;
+    // if (n <= 0)
+    // {
+    //     cout << "enter the positve number : " << endl;
+    // }
+    // else if (n == 1)
+    // {
+    //     cout << "the finonnic series is: 1" << endl;
+    // }
+    // else
+    // {
+    //     int a = 0, b = 1;
+    //     cout << "fibonic series is " << a << " " << b;
+
+    //     for (int i = 3; i <= n; i++)
+    //     {
+    //         int next = a + b;
+    //         cout << " " << next;
+    //         a = b;
+    //         b = next;
+    //     }
+    // }
+    // square pattern using star and alphabets
+
+    // int n;
+    // cout << "enter the number: ";
+    // cin >> n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= n; j++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+
+    // int n;
+    // cout << "enter the number: ";
+    // cin >> n;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     char ch = 'A';
+    //     for (int j = 0; j < n; j++)
+    //     {
+
+    //         cout << ch;
+
+    //         ch = ch + 1;
+    //     }
+    //     cout << endl;
+    // }
+
+    // int n;
+    // cout << "enter the number: ";
+    // cin >> n;
+    // for (int i = 0; i < n; i++)
+    // {
+
+    //     for (int j = 0; j < i + 1; j++)
+    //     {
+    //         cout << i + 1;
+    //     }
+    //     cout << endl;
+    // }
+
+    // int n;
+    // cout << "enter the number : ";
+    // cin >> n;
+    // for (int i = 0; i < n; i++)
+    // {
+
+    //     for (int j = 0; j <= i; j++)
+    //     {
+    //         char ch = 'A' + i;
+    //         cout << ch;
+    //     }
+    //     cout << endl;
+    // }
+    int n;
+    cout << "enter the number: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+    {
+        char ch = 'A';
+        for (int j = 1; j <= i; j++)
+        {
+            cout << ch;
+            ch++;
+        }
+        cout << endl;
+    }
+
     return 0;
 }
